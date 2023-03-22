@@ -18,7 +18,7 @@ int main() {
     int pilihan;
 
     cout << "=================" << endl;
-    cout << "=====M E N U=====" << endl;
+    cout << "==== M E N U ====" << endl;
     cout << "=================" << endl;
     cout << "1. Luas Persegi Panjang" << endl;
     cout << "2. Luas Lingkaran" << endl;
@@ -27,16 +27,19 @@ int main() {
 
     cout << "Masukkan pilihan : ";
 
-}
-
+    do {
         switch (pilihan) {
         case 1:
             cout << "Masukkan panjang = ";
             cin >> panjang;
             cout << "Masukkan lebarnya = ";
             cin >> lebar;
-            cout << "\n1Luas persegipanjang = " << luasPersegi(panjang, lebar);
+            cout << "\nLuas PersegiPanjang = " << LuasPersegipanjang(panjang, lebar);
             break;
+
+        }
+    }
+}
         case 2:
             cout << "Masukkan jari-jari = ";
             cin >> jejari;
@@ -57,4 +60,3 @@ int main() {
 
         }
     } while (pilihan != 4);
-}
