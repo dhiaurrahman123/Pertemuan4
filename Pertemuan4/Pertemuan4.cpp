@@ -40,7 +40,7 @@ int main() {
         case 2:
             cout << "Masukkan jari-jari =  ";
             cin >> jejari;
-            cout >> "\nLuas Lingkaran = " << LuasLingkaran(jejari);
+            cout << "\nLuas Lingkaran = " << LuasLingkaran(jejari);
             break;
 
         case 3:
@@ -50,16 +50,11 @@ int main() {
             cin >> tinggi;
             cout << "\nLuas Segitiga = " << LuasSegitiga(alas, tinggi);
             break;
-
-        }
-    }
-}
-
         case 4:
             break;
-        default:
-            cout << "Pilihan salah !";
+        default :
+            cout << "pilihan salah !";
             break;
-
         }
     } while (pilihan != 4);
+}   
