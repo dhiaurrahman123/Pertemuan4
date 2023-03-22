@@ -9,15 +9,16 @@ float LuasLingkaran(float r) {
     return  3.14 * r * r;
 }
 
-
-
-
-
-
-
-float luasLingkaran(float r) {
-    return 3.14 * r * r;
+float LuasSegitiga(float a, float t) {
+    return 0.5 * a * t;
 }
+
+
+
+
+
+
+
 
 float luasSegitiga(float a, float t) {
     return 0.5 * a * t;
