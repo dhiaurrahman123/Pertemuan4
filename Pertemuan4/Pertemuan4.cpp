@@ -1,9 +1,19 @@
 #include <iostream>
 using namespace std;
 
-float luasPersegi(float p, float l) {
+float LuasPersegipanjang(float p, float l) {
     return p * l;
 }
+
+float LuasLingkaran(float r) {
+    return  3.14 * r * r;
+}
+
+
+
+
+
+
 
 float luasLingkaran(float r) {
     return 3.14 * r * r;
