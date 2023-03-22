@@ -16,7 +16,7 @@ float LuasSegitiga(float a, float t) {
 int main() {
     float panjang, lebar, jejari, alas, tinggi;
     int pilihan;
-
+    do{
     cout << "=================" << endl;
     cout << "==== M E N U ====" << endl;
     cout << "=================" << endl;
@@ -26,8 +26,9 @@ int main() {
     cout << "4. Exit" << endl;
 
     cout << "Masukkan pilihan : ";
+    cin >> pilihan;
 
-    do {
+    
         switch (pilihan) {
         case 1:
             cout << "Masukkan panjang = ";
