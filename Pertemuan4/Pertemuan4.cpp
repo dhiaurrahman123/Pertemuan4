@@ -28,13 +28,6 @@ int main() {
     cout << "Masukkan pilihan : ";
 
 }
-        cout << "1. Luas Persegi Panjang" << endl;
-        cout << "2. Luas Lingkaran" << endl;
-        cout << "3. Luas Segitiga" << endl;
-        cout << "4. Exit" << endl;
-        cout << "\nPilihan (1/2/3/4) : ";
-        cin >> pilihan;
-
 
         switch (pilihan) {
         case 1:
