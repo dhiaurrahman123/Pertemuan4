@@ -13,28 +13,21 @@ float LuasSegitiga(float a, float t) {
     return 0.5 * a * t;
 }
 
-
-
-
-
-
-
-
-float luasSegitiga(float a, float t) {
-    return 0.5 * a * t;
-}
-
-
 int main() {
-
-    ///system("cls"); ///membersihkan terminal scr otomatis
-
     float panjang, lebar, jejari, alas, tinggi;
     int pilihan;
-    do {
-        cout << "=====================" << endl;
-        cout << "====== M E N U ======" << endl;
-        cout << "=====================" << endl;
+
+    cout << "=================" << endl;
+    cout << "=====M E N U=====" << endl;
+    cout << "=================" << endl;
+    cout << "1. Luas Persegi Panjang" << endl;
+    cout << "2. Luas Lingkaran" << endl;
+    cout << "3. Luas Segitiga" << endl;
+    cout << "4. Exit" << endl;
+
+    cout << "Masukkan pilihan : ";
+
+}
         cout << "1. Luas Persegi Panjang" << endl;
         cout << "2. Luas Lingkaran" << endl;
         cout << "3. Luas Segitiga" << endl;
