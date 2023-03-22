@@ -18,7 +18,7 @@ int main() {
     int pilihan;
 
     do{
-    cout << "=================" << endl;
+    cout << "\n\n=================" << endl;
     cout << "==== M E N U ====" << endl;
     cout << "=================" << endl;
     cout << "1. Luas Persegi Panjang" << endl;
